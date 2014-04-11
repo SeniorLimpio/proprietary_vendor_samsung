@@ -106,7 +106,11 @@ muxenab=0x10
 dacrate2xen=1
 txalpfbyp=1
 
+<<<<<<< HEAD
 # In RC58.29, adding to keep the txALPF powered up , even when the txALPF is bypassed. 
+=======
+# In RC58.29, adding to keep the txALPF powered up , even when the txALPF is bypassed.
+>>>>>>> ac28ad0... smdk4412-common: wifi: kitkat
 txalpfpu=1
 
 # 11b ACR Performance
@@ -136,9 +140,15 @@ iqlocalidx5g=55
 # In RC58.35/38. Added on For LOFT
 dlocalidx5g=75
 
+<<<<<<< HEAD
 # In RC58.33, change EPA_or_PAD_lpbck5g=1 to lpbckmode5g=1 
 #EPA_or_PAD_lpbck5g=1
 lpbckmode5g=1 
+=======
+# In RC58.33, change EPA_or_PAD_lpbck5g=1 to lpbckmode5g=1
+#EPA_or_PAD_lpbck5g=1
+lpbckmode5g=1
+>>>>>>> ac28ad0... smdk4412-common: wifi: kitkat
 txiqlopapu5g=0
 iqcalidx5g=50
 txiqlopapu2g=0
